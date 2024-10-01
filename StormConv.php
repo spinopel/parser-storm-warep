@@ -153,7 +153,7 @@ class StormConv extends Storm
 		//Broken sky at 1006 meters, cumulonimbus; overcast sky at 2012 meters
 		
 		//приведение строки к нижнему регистру
-		$str = mb_strtolower($str);
+		$str = strtolower($str);
 		//echo $str;
 		
 		//список поисковых фраз
